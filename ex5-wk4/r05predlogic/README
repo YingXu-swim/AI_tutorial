@@ -1,0 +1,33 @@
+
+==== Truth-values of formulas in the First-Order Predicate Logic ====
+
+See STRUCT-FAMILY for an example of how structures are specified
+in our notation, and see FORMULAS-FAMILY for examples of how
+predicate logic formulas are written in our notation.
+To evaluate all formulas in a file w.r.t. a given structure, try
+
+  python3 predeval.py STRUCT-FAMILY FORMULAS-FAMILY
+
+Please also read all the code.
+
+  predlogic.py   Structures, formulas, and truth-values of formulas
+  stparse.py     Read a file that contains one structure
+  prparse.py     Read a file that contains formulas
+  predeval.py    Main program for evaluating formulas in a given structure
+
+
+==== 一阶谓词逻辑中公式的真值 ====
+
+有关如何指定结构的示例，请参见 STRUCT-FAMILY
+在我们的表示法中，请参阅 FORMULAS-FAMILY 以获取有关如何
+谓词逻辑公式是用我们的符号编写的。
+评估文件中的所有公式 w.r.t. 一个给定的结构，尝试
+
+   python3 predeval.py STRUCT-FAMILY FORMULAS-FAMILY
+
+另请阅读所有代码。
+
+   predlogic.py 结构、公式和公式的真值
+   stparse.py 读取包含一个结构的文件
+   prparse.py 读取包含公式的文件
+   predeval.py 用于评估给定结构中的公式的主程序

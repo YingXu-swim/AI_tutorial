@@ -1,0 +1,13 @@
+
+# Here are the formulas that must be satisfied (= made true) by the structure
+# given in STRUCT-1. Modify STRUCT-1 so that all these formulas are true.
+#
+# DO NOT MODIFY THIS FILE!
+#
+
+# Formulas about family relations
+
+
+parent(Jack,Mary)
+# parent(Jack,John)
+# father(Jack)
